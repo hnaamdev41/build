@@ -22,7 +22,7 @@
 PRODUCT_PROPERTY_OVERRIDES := \
     keyguard.no_require_sim=true \
 
-ifeq ($(CUSTOM_BUILD),)
+ifeq ($(REBELLION_BUILD),)
 PRODUCT_PROPERTY_OVERRIDES := \
     ro.com.android.dataroaming=true
 endif
